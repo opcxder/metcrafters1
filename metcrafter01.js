@@ -23,7 +23,7 @@ function mintNFT(blockchainAccount, HolderName, price, comment) {
     comment: comment,
   };
 
-  infoHolder.push(nftInfo);
+  infoHolder.push(nftInfo); 
 }
 
 // create a "loop" that will go through an "array" of NFT's
@@ -47,5 +47,21 @@ mintNFT(
   421,
   "first nft mint for metacrafter"
 );
+
+mintNFT(
+    "24outgndfgou85t9ighdisdg4we",
+    "Raja Gupta",
+    423,
+    "second nft mint for metacrafter"
+  );
+
+  mintNFT(
+    "2bdsdfgretup348se4evdgdsve",
+    "Raaz Gupta",
+    445,
+    "third nft mint for metacrafter"
+  );
+
+
 listNFTs();
 getTotalSupply();
